@@ -1,0 +1,84 @@
+
+body{
+    background-color: #072e21;
+}
+
+h1{
+    color:#ffffff;
+    font-family: Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: calc(3vw + 1vh + 1vmin);
+    text-align: center;
+}
+
+.map{
+   padding:1.5% 3% 1.5%;
+}
+
+.box{
+    margin:1.5% 5%;
+    background-color: #1b451d;
+    border:3px solid #041702;
+    border-radius: 16px;
+    margin-bottom: 4%;
+}
+
+.video{
+    padding:0.8%;
+    margin-bottom: 4%;
+}
+
+.audio{
+    margin: 2% 5% 1.5%;
+}
+
+.audio audio{
+    width: 100%;
+    margin-bottom: 4%;
+}
+
+audio::-webkit-media-controls-play-button,audio::-webkit-media-controls-panel {
+     background-color: #055627;
+     color: #000000;
+}
+
+footer{
+    border: 2px solid #2a4404;
+    padding: 2%;
+    color:#080707;
+    font-family: Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: calc(1.5vw + 1vh + 1vmin);
+    margin-top: auto;
+    text-align: center;
+}
+
+.social{
+    padding: 1.5%;
+    margin-bottom: 4%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    border: 2px solid #00ADB5
+}
+
+.social a{
+    text-decoration: 2px underline #02240b;
+    color:#1c1414;
+    text-underline-offset: 8px;
+}
+
+@media(max-width:500px){
+    .social{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .social > *{
+        margin: 2% auto;
+    }
+    
+    .social:first-child{
+        padding-top: 2%;
+    }
+}

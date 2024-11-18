@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>КІ-401 Янкович Н. Р.</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header class="bg-primary text-white text-center py-3">
+        <h1>Лабораторна робота №6
+        </h1>
+        <h1>КІ-401 Янкович Н. Р.
+        </h1>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Меню</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Головна</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Про нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Контакти</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Додатково
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Пункт 1</a>
+                        <a class="dropdown-item" href="#">Пункт 2</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Пункт 3</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-4">
+                <h2>Меню</h2>
+                <p>Нижче описані пункти сайту.</p>
+                <ul class="list-group">
+                    <li class="list-group-item"><i class="fas fa-home"></i> Головна</li>
+                    <li class="list-group-item"><i class="fas fa-info-circle"></i> Про нас</li>
+                    <li class="list-group-item"><i class="fas fa-envelope"></i> Контакти</li>
+                </ul>
+            </div>
+
+            <div class="col-md-8">
+                <h2>Реєстрація</h2>
+                <p>Введіть ваше ім'я та ваш Email для зв'язку з нами.</p>
+
+                <form>
+                    <div class="form-group">
+                        <label for="name">Ім'я:</label>
+                        <input type="text" class="form-control" id="name" placeholder="Введіть ваше ім'я">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Введіть ваш email">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Надіслати</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-3 mt-4">
+        <p>&copy; 2024 Янкович Н. Р.</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
